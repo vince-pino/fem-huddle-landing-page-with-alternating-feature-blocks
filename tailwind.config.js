@@ -5,8 +5,14 @@ module.exports = {
     extend: {
       fontFamily: {
         "open-sans": ["Open Sans", "sans-serif"],
-        "poppins": ["Poppins", "sans-serif"],
-      }
+        poppins: ["Poppins", "sans-serif"],
+      },
+      colors: {
+        pink: "hsl(322, 100%, 66%)",
+        "pale-cyan": "hsl(193, 100%, 96%)",
+        "dark-cyan": "hsl(192, 100%, 9%)",
+        "grayish-blue": "hsl(208, 11%, 55%)",
+      },
     },
   },
   plugins: [],

@@ -554,10 +554,26 @@ video {
   display: none;
 }
 
-.font-open-sans {
-  font-family: Open Sans, sans-serif;
+.grow {
+  flex-grow: 1;
 }
 
-.font-poppins {
-  font-family: Poppins, sans-serif;
+.bg-pink {
+  --tw-bg-opacity: 1;
+  background-color: hsl(322 100% 66% / var(--tw-bg-opacity));
+}
+
+.bg-pale-cyan {
+  --tw-bg-opacity: 1;
+  background-color: hsl(193 100% 96% / var(--tw-bg-opacity));
+}
+
+.bg-dark-cyan {
+  --tw-bg-opacity: 1;
+  background-color: hsl(192 100% 9% / var(--tw-bg-opacity));
+}
+
+.bg-grayish-blue {
+  --tw-bg-opacity: 1;
+  background-color: hsl(208 11% 55% / var(--tw-bg-opacity));
 }
