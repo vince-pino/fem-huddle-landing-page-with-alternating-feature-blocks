@@ -49,29 +49,31 @@
     <section
       class="bg-pale-cyan bg-[url('../images/bg-hero-mobile.svg')] bg-cover bg-center bg-no-repeat"
     >
-      <header class="flex items-center justify-between px-8 py-10">
-        <div>
+      <header class="flex items-center justify-between px-4 py-10 md:px-8">
+        <div class="h-auto w-full min-w-20 max-w-32 md:max-w-full">
           <img src="images/logo.svg" alt="logo" />
         </div>
         <button
-          class="hover:text-grayish-blue rounded-full bg-white px-5 w-56 min-w-max py-3 font-bold shadow-[0_2px_14px_rgba(0,0,0,0.2)]"
+          class="w-full min-w-max max-w-32 rounded-full bg-white px-4 py-2 text-base font-bold shadow-[0_2px_14px_rgba(0,0,0,0.2)] hover:text-grayish-blue md:max-w-56 md:px-8 md:py-3 md:text-xl"
         >
           Try It Free
         </button>
       </header>
-      <div class="mt-40 flex flex-col items-center px-16">
+      <div class="mt-20 flex flex-col items-center px-8 md:mt-40 md:px-16">
         <h1
-          class="text-dark-cyan mb-20 text-center font-poppins text-5xl font-semibold"
+          class="mb-20 text-center font-poppins text-2xl font-semibold text-dark-cyan md:text-5xl"
         >
           Build The Community Your Fans Will Love
         </h1>
-        <p class="text-dark-cyan mb-20 text-center text-3xl font-medium">
+        <p
+          class="mb-20 text-center text-base font-medium text-dark-cyan md:text-3xl"
+        >
           Huddle re-imagines the way we build communities. You have a voice, but
           so does your audience. Create connections with your users as you
           engage in genuine discussion.
         </p>
         <button
-          class="bg-pink mb-32 max-w-[460px] w-full min-w-max rounded-full px-10 shadow-xl py-5 font-bold text-white"
+          class="mb-32 w-full min-w-max max-w-[260px] rounded-full bg-pink py-4 text-base font-bold text-white shadow-xl md:max-w-[460px] md:px-10 md:py-5 md:text-lg"
         >
           Get Started For Free
         </button>
@@ -81,9 +83,9 @@
       </div>
     </section>
 
-    <main class="flex flex-col gap-20 px-10 py-32 relative">
+    <main class="relative flex flex-col gap-20 px-6 py-20 md:px-10 md:py-32">
       <div
-        class="rounded-3xl bg-white px-20 pb-20 pt-32 shadow-[0_2px_14px_rgba(0,0,0,0.2)]"
+        class="rounded-3xl bg-white px-4 pb-10 pt-20 shadow-[0_2px_14px_rgba(0,0,0,0.2)] md:px-20 md:pb-20 md:pt-32"
       >
         <figure>
           <img
@@ -91,10 +93,12 @@
             alt="grow together image"
           />
         </figure>
-        <h2 class="mb-10 mt-32 text-center font-poppins text-4xl font-semibold">
+        <h2
+          class="mb-8 mt-20 text-center font-poppins text-xl font-semibold md:mb-10 md:mt-32 md:text-4xl"
+        >
           Grow Together
         </h2>
-        <p class="text-grayish-blue text-center text-2xl">
+        <p class="text-center text-base text-grayish-blue md:text-2xl">
           Generate meaningful discussions with your audience and build a strong,
           loyal community. Think of the insightful conversations you miss out on
           with a feedback form.
@@ -102,7 +106,7 @@
       </div>
 
       <div
-        class="rounded-3xl bg-white px-20 pb-20 pt-32 shadow-[0_2px_14px_rgba(0,0,0,0.2)]"
+        class="rounded-3xl bg-white px-4 pb-10 pt-20 shadow-[0_2px_14px_rgba(0,0,0,0.2)] md:px-20 md:pb-20 md:pt-32"
       >
         <figure>
           <img
@@ -110,17 +114,19 @@
             alt="flowing conversation image"
           />
         </figure>
-        <h2 class="mb-10 mt-32 text-center font-poppins text-4xl font-semibold">
+        <h2
+          class="mb-8 mt-20 text-center font-poppins text-xl font-semibold md:mb-10 md:mt-32 md:text-4xl"
+        >
           Flowing Conversations
         </h2>
-        <p class="text-grayish-blue text-center text-2xl">
+        <p class="text-center text-base text-grayish-blue md:text-2xl">
           You wouldn't paginate a conversation in real life, so why do it
           online? Our threads have just-in-time loading for a more natural flow.
         </p>
       </div>
 
       <div
-        class="rounded-3xl bg-white px-20 pb-20 pt-32 shadow-[0_2px_14px_rgba(0,0,0,0.2)]"
+        class="rounded-3xl bg-white px-4 pb-10 pt-20 shadow-[0_2px_14px_rgba(0,0,0,0.2)] md:px-20 md:pb-20 md:pt-32"
       >
         <figure>
           <img
@@ -128,10 +134,12 @@
             alt="your users image"
           />
         </figure>
-        <h2 class="mb-10 mt-32 text-center font-poppins text-4xl font-semibold">
+        <h2
+          class="mb-8 mt-20 text-center font-poppins text-xl font-semibold md:mb-10 md:mt-32 md:text-4xl"
+        >
           Your Users
         </h2>
-        <p class="text-grayish-blue text-center text-2xl">
+        <p class="text-center text-base text-grayish-blue md:text-2xl">
           It takes no time at all to integrate Huddle with your app's
           authentication solution. This means, once signed in to your app, your
           users can start chatting immediately.
@@ -139,28 +147,33 @@
       </div>
 
       <div
-        class="flex w-11/12 flex-col items-center rounded-3xl bg-white px-8 py-20 shadow-[0_2px_14px_rgba(0,0,0,0.2)] absolute left-1/2 -translate-x-1/2 -bottom-[450px]"
+        class="absolute -bottom-[360px] md:-bottom-[450px] left-1/2 flex w-11/12 -translate-x-1/2 flex-col items-center rounded-3xl bg-white px-4 md:px-8 py-10 md:py-20 shadow-[0_2px_14px_rgba(0,0,0,0.2)]"
       >
-        <h2 class="mb-10 text-center font-poppins text-3xl font-semibold">
+        <h2 class="mb-6 md:mb-10 text-center font-poppins text-lg md:text-3xl font-semibold">
           Ready To Build Your Community?
         </h2>
         <button
-          class="bg-pink max-w-[400px] w-full shadow-xl min-w-max rounded-full px-10 py-5 font-bold text-white"
+          class="w-full min-w-max max-w-[260px] md:max-w-[400px] rounded-full bg-pink px-5 md:px-10 py-3 text-base md:text-lg md:py-5 font-bold text-white shadow-xl"
         >
           Get Started For Free
         </button>
       </div>
-
     </main>
-    
-    <footer class="bg-dark-cyan text-white mt-72 px-10 pt-80 pb-40 text-3xl">
-      <div class="flex flex-col gap-10 mb-20">
+
+    <footer class="mt-72 bg-dark-cyan px-4 md:px-10 pb-10 pt-40 md:pt-80 text-xl md:text-3xl text-white">
+      <div class="mb-20 flex flex-col gap-6 md:gap-10">
         <figure>
-          <span class="icon-logo text-5xl"><span class="path1"></span><span class="path2"></span></span>
+          <span class="icon-logo text-2xl md:text-5xl"
+            ><span class="path1"></span><span class="path2"></span
+          ></span>
         </figure>
-        <div class="flex items-start gap-10">
-          <figure class="inline-block mt-2">
-            <img class="max-w-8 w-8 h-ful max-h-10" src="images/icon-location.svg" alt="location icon" />
+        <div class="flex items-start gap-6 md:gap-10">
+          <figure class="mt-2 mr-6 md:mr-0 inline-block">
+            <img
+              class="h-full max-h-10 w-8 max-w-4 md:max-w-8"
+              src="images/icon-location.svg"
+              alt="location icon"
+            />
           </figure>
           <span class="align-top">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -169,39 +182,57 @@
         </div>
         <div class="flex items-center gap-10">
           <figure class="inline-block">
-            <img class="w-8 h-auto" src="images/icon-phone.svg" alt="telephone icon" />
+            <img
+              class="h-auto w-6 md:w-8"
+              src="images/icon-phone.svg"
+              alt="telephone icon"
+            />
           </figure>
           <span> +1-543-123-4567 </span>
         </div>
-        <div class="flex items-start gap-10">
+        <div class="flex items-center gap-10">
           <figure class="inline-block">
-            <img class="w-8 h-auto" src="images/icon-email.svg" alt="email icon" />
+            <img
+              class="h-auto w-6 md:w-8"
+              src="images/icon-email.svg"
+              alt="email icon"
+            />
           </figure>
-          example@huddle.com
+          <span>
+            example@huddle.com
+          </span>
         </div>
       </div>
-  
-      <div class="grid grid-cols-1 gap-10 mb-20">
-        <div>About Us</div>
-        <div>What We Do</div>
-        <div>FAQ</div>
-        <div>Career</div>
-        <div>Blog</div>
-        <div>Contact Us</div>
+
+      <div class="mb-20 grid grid-cols-1 gap-6 md:gap-10">
+        <div class="hover:underline">About Us</div>
+        <div class="hover:underline">What We Do</div>
+        <div class="hover:underline">FAQ</div>
+        <div class="hover:underline">Career</div>
+        <div class="hover:underline">Blog</div>
+        <div class="hover:underline">Contact Us</div>
       </div>
-  
-      <div class="flex items-center gap-10 justify-center mb-10">
-        <figure class="border rounded-full flex w-14 h-14 hover:border-pink group">
+
+      <div class="mb-4 md:mb-10 flex items-center justify-center gap-10">
+        <figure
+          class="group flex h-14 w-14 rounded-full border hover:border-pink"
+        >
           <i class="fa-brands fa-facebook-f m-auto group-hover:text-pink"></i>
         </figure>
-        <figure class="border rounded-full flex w-14 h-14 hover:border-pink group">
+        <figure
+          class="group flex h-14 w-14 rounded-full border hover:border-pink"
+        >
           <i class="fa-brands fa-twitter m-auto group-hover:text-pink"></i>
         </figure>
-        <figure class="border rounded-full flex w-14 h-14 hover:border-pink group">
+        <figure
+          class="group flex h-14 w-14 rounded-full border hover:border-pink"
+        >
           <i class="fa-brands fa-instagram m-auto group-hover:text-pink"></i>
         </figure>
       </div>
-      <div class="text-xl text-center">&copy; Copyright 2018 Huddle. All rights reserved.</div>
+      <div class="text-center text-sm mb-10 md:text-xl">
+        &copy; Copyright 2018 Huddle. All rights reserved.
+      </div>
 
       <p class="attribution">
         Challenge by
