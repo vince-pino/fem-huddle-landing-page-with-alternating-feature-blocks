@@ -46,6 +46,7 @@
     </style>
   </head>
   <body class="box-border h-screen w-full font-open-sans text-xl">
+    <!-- Hero Section -->
     <section
       class="bg-pale-cyan bg-[url('../images/bg-hero-mobile.svg')] bg-cover bg-center bg-no-repeat"
     >
@@ -59,33 +60,38 @@
           Try It Free
         </button>
       </header>
-      <div class="mt-20 flex flex-col items-center px-8 md:mt-40 md:px-16">
-        <h1
-          class="mb-20 text-center font-poppins text-2xl font-semibold text-dark-cyan md:text-5xl"
-        >
-          Build The Community Your Fans Will Love
-        </h1>
-        <p
-          class="mb-20 text-center text-base font-medium text-dark-cyan md:text-3xl"
-        >
-          Huddle re-imagines the way we build communities. You have a voice, but
-          so does your audience. Create connections with your users as you
-          engage in genuine discussion.
-        </p>
-        <button
-          class="mb-32 w-full min-w-max max-w-[260px] rounded-full bg-pink py-4 text-base font-bold text-white shadow-xl md:max-w-[460px] md:px-10 md:py-5 md:text-lg"
-        >
-          Get Started For Free
-        </button>
-        <figure class="mb-20">
+      <div
+        class="mt-20 flex flex-col items-center px-8 md:mt-40 md:px-16 lg:mt-20 lg:flex-row lg:items-center lg:gap-20 lg:pb-20"
+      >
+        <div class="flex flex-col items-center lg:w-[800px] lg:items-start">
+          <h1
+            class="mb-20 text-center font-poppins text-2xl font-semibold text-dark-cyan md:text-5xl lg:mb-10 lg:text-left lg:text-4xl lg:font-bold"
+          >
+            Build The Community Your Fans Will Love
+          </h1>
+          <p
+            class="mb-20 text-center text-base font-medium text-dark-cyan md:text-3xl lg:mb-10 lg:text-left lg:text-lg"
+          >
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+          <button
+            class="mb-32 w-full min-w-max max-w-[260px] rounded-full bg-pink py-4 text-base font-bold text-white shadow-xl md:max-w-[460px] md:px-10 md:py-5 md:text-lg lg:mb-0 lg:max-w-[280px] lg:px-3 lg:py-4 lg:text-base"
+          >
+            Get Started For Free
+          </button>
+        </div>
+        <figure class="mb-20 lg:mb-0">
           <img src="images/illustration-mockups.svg" alt="mockup image" />
         </figure>
       </div>
     </section>
 
+    <!-- Main Content -->
     <main class="relative flex flex-col gap-20 px-6 py-20 md:px-10 md:py-32">
       <div
-        class="rounded-3xl bg-white px-4 pb-10 pt-20 shadow-[0_2px_14px_rgba(0,0,0,0.2)] md:px-20 md:pb-20 md:pt-32"
+        class="rounded-3xl bg-white px-4 pb-10 pt-20 shadow-[0_2px_14px_rgba(0,0,0,0.2)] md:px-20 md:pb-20 md:pt-32 lg:flex lg:flex-row-reverse lg:items-center lg:gap-20 lg:pb-10 lg:pt-10"
       >
         <figure>
           <img
@@ -93,20 +99,24 @@
             alt="grow together image"
           />
         </figure>
-        <h2
-          class="mb-8 mt-20 text-center font-poppins text-xl font-semibold md:mb-10 md:mt-32 md:text-4xl"
-        >
-          Grow Together
-        </h2>
-        <p class="text-center text-base text-grayish-blue md:text-2xl">
-          Generate meaningful discussions with your audience and build a strong,
-          loyal community. Think of the insightful conversations you miss out on
-          with a feedback form.
-        </p>
+        <div>
+          <h2
+            class="mb-8 mt-20 text-center font-poppins text-xl font-semibold md:mb-10 md:mt-32 md:text-4xl lg:mb-4 lg:mt-0 lg:text-left lg:text-2xl"
+          >
+            Grow Together
+          </h2>
+          <p
+            class="text-center text-base text-grayish-blue md:text-2xl lg:text-left lg:text-base"
+          >
+            Generate meaningful discussions with your audience and build a
+            strong, loyal community. Think of the insightful conversations you
+            miss out on with a feedback form.
+          </p>
+        </div>
       </div>
 
       <div
-        class="rounded-3xl bg-white px-4 pb-10 pt-20 shadow-[0_2px_14px_rgba(0,0,0,0.2)] md:px-20 md:pb-20 md:pt-32"
+        class="rounded-3xl bg-white px-4 pb-10 pt-20 shadow-[0_2px_14px_rgba(0,0,0,0.2)] md:px-20 md:pb-20 md:pt-32 lg:flex lg:items-center lg:gap-20 lg:pb-10 lg:pt-10"
       >
         <figure>
           <img
@@ -114,19 +124,24 @@
             alt="flowing conversation image"
           />
         </figure>
-        <h2
-          class="mb-8 mt-20 text-center font-poppins text-xl font-semibold md:mb-10 md:mt-32 md:text-4xl"
-        >
-          Flowing Conversations
-        </h2>
-        <p class="text-center text-base text-grayish-blue md:text-2xl">
-          You wouldn't paginate a conversation in real life, so why do it
-          online? Our threads have just-in-time loading for a more natural flow.
-        </p>
+        <div>
+          <h2
+            class="mb-8 mt-20 text-center font-poppins text-xl font-semibold md:mb-10 md:mt-32 md:text-4xl lg:mb-4 lg:mt-0 lg:text-left lg:text-2xl"
+          >
+            Flowing Conversations
+          </h2>
+          <p
+            class="text-center text-base text-grayish-blue md:text-2xl lg:text-left lg:text-base"
+          >
+            You wouldn't paginate a conversation in real life, so why do it
+            online? Our threads have just-in-time loading for a more natural
+            flow.
+          </p>
+        </div>
       </div>
 
       <div
-        class="rounded-3xl bg-white px-4 pb-10 pt-20 shadow-[0_2px_14px_rgba(0,0,0,0.2)] md:px-20 md:pb-20 md:pt-32"
+        class="rounded-3xl bg-white px-4 pb-10 pt-20 shadow-[0_2px_14px_rgba(0,0,0,0.2)] md:px-20 md:pb-20 md:pt-32 lg:flex lg:flex-row-reverse lg:items-center lg:gap-20 lg:pb-10 lg:pt-10"
       >
         <figure>
           <img
@@ -134,43 +149,53 @@
             alt="your users image"
           />
         </figure>
-        <h2
-          class="mb-8 mt-20 text-center font-poppins text-xl font-semibold md:mb-10 md:mt-32 md:text-4xl"
-        >
-          Your Users
-        </h2>
-        <p class="text-center text-base text-grayish-blue md:text-2xl">
-          It takes no time at all to integrate Huddle with your app's
-          authentication solution. This means, once signed in to your app, your
-          users can start chatting immediately.
-        </p>
+        <div>
+          <h2
+            class="mb-8 mt-20 text-center font-poppins text-xl font-semibold md:mb-10 md:mt-32 md:text-4xl lg:mb-4 lg:mt-0 lg:text-left lg:text-2xl"
+          >
+            Your Users
+          </h2>
+          <p
+            class="text-center text-base text-grayish-blue md:text-2xl lg:text-left lg:text-base"
+          >
+            It takes no time at all to integrate Huddle with your app's
+            authentication solution. This means, once signed in to your app,
+            your users can start chatting immediately.
+          </p>
+        </div>
       </div>
 
       <div
-        class="absolute -bottom-[360px] md:-bottom-[450px] left-1/2 flex w-11/12 -translate-x-1/2 flex-col items-center rounded-3xl bg-white px-4 md:px-8 py-10 md:py-20 shadow-[0_2px_14px_rgba(0,0,0,0.2)]"
+        class="absolute -bottom-[360px] left-1/2 flex w-11/12 -translate-x-1/2 flex-col items-center rounded-3xl bg-white px-4 py-10 shadow-[0_2px_14px_rgba(0,0,0,0.2)] md:-bottom-[450px] md:px-8 md:py-20 lg:w-3/5 lg:py-10 lg:-bottom-[240px]"
       >
-        <h2 class="mb-6 md:mb-10 text-center font-poppins text-lg md:text-3xl font-semibold">
+        <h2
+          class="mb-6 text-center font-poppins text-lg font-semibold md:mb-10 md:text-3xl lg:text-2xl lg:mb-6"
+        >
           Ready To Build Your Community?
         </h2>
         <button
-          class="w-full min-w-max max-w-[260px] md:max-w-[400px] rounded-full bg-pink px-5 md:px-10 py-3 text-base md:text-lg md:py-5 font-bold text-white shadow-xl"
+          class="w-full min-w-max max-w-[260px] rounded-full bg-pink px-5 py-3 text-base font-bold text-white shadow-xl md:max-w-[400px] md:px-10 md:py-5 md:text-lg lg:max-w-[280px] lg:text-base"
         >
           Get Started For Free
         </button>
       </div>
     </main>
 
-    <footer class="mt-72 bg-dark-cyan px-4 md:px-10 pb-10 pt-40 md:pt-80 text-xl md:text-3xl text-white">
+    <footer
+      class="mt-72 bg-dark-cyan px-4 pb-10 pt-40 text-xl text-white md:px-10 md:pt-80 md:text-3xl lg:mt-40 lg:pt-40 lg:text-lg"
+    >
+    <figure>
+      <span class="icon-logo text-2xl md:text-5xl lg:text-4xl"
+        ><span class="path1"></span><span class="path2"></span
+      ></span>
+    </figure>
+
+    <div class="lg:grid lg:grid-cols-3 lg:gap-20 lg:items-start mt-10">
       <div class="mb-20 flex flex-col gap-6 md:gap-10">
-        <figure>
-          <span class="icon-logo text-2xl md:text-5xl"
-            ><span class="path1"></span><span class="path2"></span
-          ></span>
-        </figure>
         <div class="flex items-start gap-6 md:gap-10">
-          <figure class="mt-2 mr-6 md:mr-0 inline-block">
+          <figure class="mr-6 mt-2 inline-block md:mr-0">
             <img
-              class="h-full max-h-10 w-8 max-w-4 md:max-w-8"
+              class="h-full max-h-10 w-8 max-w-4 md:max-w-8 lg:max-w-3"
               src="images/icon-location.svg"
               alt="location icon"
             />
@@ -183,7 +208,7 @@
         <div class="flex items-center gap-10">
           <figure class="inline-block">
             <img
-              class="h-auto w-6 md:w-8"
+              class="h-auto w-6 md:w-8 lg:w-4"
               src="images/icon-phone.svg"
               alt="telephone icon"
             />
@@ -193,44 +218,44 @@
         <div class="flex items-center gap-10">
           <figure class="inline-block">
             <img
-              class="h-auto w-6 md:w-8"
+              class="h-auto w-6 md:w-8 lg:w-4"
               src="images/icon-email.svg"
               alt="email icon"
             />
           </figure>
-          <span>
-            example@huddle.com
-          </span>
+          <span> example@huddle.com </span>
         </div>
       </div>
 
-      <div class="mb-20 grid grid-cols-1 gap-6 md:gap-10">
-        <div class="hover:underline">About Us</div>
-        <div class="hover:underline">What We Do</div>
-        <div class="hover:underline">FAQ</div>
-        <div class="hover:underline">Career</div>
-        <div class="hover:underline">Blog</div>
-        <div class="hover:underline">Contact Us</div>
+      <div class="mb-20 grid grid-cols-1 gap-6 md:gap-10 lg:grid lg:grid-rows-3 lg:grid-flow-col lg:mb-0 lg:gap-4">
+        <div class="hover:underline lg:text-base">About Us</div>
+        <div class="hover:underline lg:text-base">What We Do</div>
+        <div class="hover:underline lg:text-base">FAQ</div>
+        <div class="hover:underline lg:text-base">Career</div>
+        <div class="hover:underline lg:text-base">Blog</div>
+        <div class="hover:underline lg:text-base">Contact Us</div>
       </div>
 
-      <div class="mb-4 md:mb-10 flex items-center justify-center gap-10">
+      <div class="mb-4 flex items-center justify-center gap-10 md:mb-10 lg:mb-0 lg:gap-4 lg:justify-start lg:ml-8">
         <figure
-          class="group flex h-14 w-14 rounded-full border hover:border-pink"
+          class="group flex h-14 w-14 rounded-full border hover:border-pink lg:h-10 lg:w-10"
         >
           <i class="fa-brands fa-facebook-f m-auto group-hover:text-pink"></i>
         </figure>
         <figure
-          class="group flex h-14 w-14 rounded-full border hover:border-pink"
+          class="group flex h-14 w-14 rounded-full border hover:border-pink lg:h-10 lg:w-10"
         >
           <i class="fa-brands fa-twitter m-auto group-hover:text-pink"></i>
         </figure>
         <figure
-          class="group flex h-14 w-14 rounded-full border hover:border-pink"
+          class="group flex h-14 w-14 rounded-full border hover:border-pink lg:h-10 lg:w-10"
         >
           <i class="fa-brands fa-instagram m-auto group-hover:text-pink"></i>
         </figure>
       </div>
-      <div class="text-center text-sm mb-10 md:text-xl">
+    </div>
+
+      <div class="mb-10 text-center text-sm md:text-xl lg:text-right lg:text-base">
         &copy; Copyright 2018 Huddle. All rights reserved.
       </div>
 
@@ -238,7 +263,7 @@
         Challenge by
         <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
           >Frontend Mentor</a
-        >. Coded by <a href="#">Your Name Here</a>.
+        >. Coded by <a href="#">Vince Cedie Pino</a>.
       </p>
     </footer>
   </body>
